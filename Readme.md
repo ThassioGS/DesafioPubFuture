@@ -1,6 +1,6 @@
 ﻿**Versionamento:** Git 
 
-**Linguagem:** Java 
+**Linguagem:** Java JDK 11
 
 **Framework:** Spring Boot 
 
@@ -14,7 +14,7 @@
 
 **Orientações:**
 
-Baixar o projeto e abri-lo com uma IDE, no caso utilizei o intellij, carregar as dependências do maven, selecionar build e depois run.
+Verificar se possui a JDK 11 instalada, baixar o projeto e abri-lo com uma IDE, no caso recomendo abrir com o Intellij, selecionar para carregar as dependências do maven, depois build, e após isso selecionar a classe CourseApplication.java, botão direito e selecionar run. Realizando esses passos deverá rodar sem problemas.
 
 Após isso, acessar o banco de dados no link: <http://localhost:8080/h2-console/> e clicar em connect.
 
