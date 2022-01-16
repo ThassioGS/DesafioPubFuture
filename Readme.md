@@ -16,7 +16,11 @@
 
 Verificar se possui a JDK 11 instalada, baixar o projeto e abri-lo com uma IDE, no caso recomendo abrir com o Intellij, selecionar para carregar as dependências do maven, depois build, e após isso selecionar a classe CourseApplication.java, botão direito e selecionar run. Realizando esses passos deverá rodar sem problemas.
 
-Após isso, acessar o banco de dados no link: <http://localhost:8080/h2-console/> e clicar em connect.
+Com a aplicação rodando acesse o banco de dados no link: <http://localhost:8080/h2-console/>  e verifique a JDBC URL = jdbc:h2:mem:testdb e clique em connect
+
+
+![image](https://user-images.githubusercontent.com/68321394/149673292-80c4543e-6143-41d8-96dd-879a63f5b15a.png)
+
 
 Verificar se gerou algum erro no console, caso não tenha, já é possível realizar as requisições através de uma API Client.
 
