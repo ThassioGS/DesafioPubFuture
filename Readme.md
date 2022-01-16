@@ -14,7 +14,7 @@
 
 **Orientações:**
 
-Verificar se possui a JDK 11 instalada, baixar o projeto e abri-lo com uma IDE, no caso recomendo abrir com o Intellij, selecionar para carregar as dependências do maven, depois build, e após isso selecionar a classe CourseApplication.java, botão direito e selecionar run. Realizando esses passos deverá rodar sem problemas.
+Verificar se possui a JDK 11 instalada, baixar o projeto e abri-lo com uma IDE, no caso recomendo abrir com o Intellij, selecionar para carregar as dependências do maven, depois build, e após isso selecionar a classe DesafioApplication.java, botão direito e selecionar run. Realizando esses passos deverá rodar sem problemas.
 
 Com a aplicação rodando acesse o banco de dados no link: <http://localhost:8080/h2-console/>  e verifique a JDBC URL = jdbc:h2:mem:testdb e clique em connect
 
