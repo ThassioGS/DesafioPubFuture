@@ -28,6 +28,10 @@ Verificar se gerou algum erro no console, caso não tenha, já é possível real
 
 As Requisições tipo PUT são as únicas que não vão retornar alguma coisa, todas as outras no response retornará uma lista com os objetos atualizados, com o que tem no banco de dados.
 
+As buscas por periodo são colocados os periodos na url conforme o exemplo indicado abaixo com a data inicial e final, assim como as por periodo.
+
+A transferencia entre contas as contas são colocadas no corpo e o valor na url, também como indicado em exemplo.
+
 Ao rodar a aplicação e consultar o banco de dados é possivel perceber que já existem dados lá, eles são criados junto com o banco através do arquivo testConfig, assim fica mais dinamico 
 testar as requisições com vários dados já preenchidos.
 
